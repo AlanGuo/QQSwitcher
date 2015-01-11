@@ -1,0 +1,11 @@
+{{each data}}
+	<li data-click-event="select">
+		<span class="number">{{$value.uin}}</span>
+		<span class="markup mr5">{{$value.comment}}</span>
+		<span class="pwd none">{{$value.password}}</span>
+		<span class="vercodewrapper none">
+			<input class="vercode" id="vercode">
+			<img class="verifyimg" class="看不清，换一张" src="">
+		</span>
+	</li>
+{{/each}}
