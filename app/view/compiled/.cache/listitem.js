@@ -1,4 +1,4 @@
-/*TMODJS:{"version":19,"md5":"f5b09f35888dab476b257aff30f4e534"}*/
+/*TMODJS:{"version":2,"md5":"91f7f3804635edc0d123930f6ea1694b"}*/
 template('listitem',function($data,$filename) {
 'use strict';var $utils=this,$helpers=$utils.$helpers,$each=$utils.$each,data=$data.data,$value=$data.$value,$index=$data.$index,$escape=$utils.$escape,$out='';$each(data,function($value,$index){
 $out+=' <li data-click-event="select"> <span class="number">';

@@ -72,27 +72,6 @@ module.exports = function (grunt) {
       }
     },
 
-    localhosts: {
-        set : {
-            options: {
-                rules: [{
-                    ip: '127.0.0.1',
-                    hostname: 'qqswitcher.com',
-                    type: 'set'
-                }]
-            }
-        },
-        remove : {
-            options: {
-                rules: [{
-                    ip: '127.0.0.1',
-                    hostname: 'qqswitcher.com',
-                    type: 'remove'
-                }]
-            }
-        }
-    },
-
     // The actual grunt server settings
     connect: {
       options: {
@@ -107,7 +86,7 @@ module.exports = function (grunt) {
       ],
       livereload: {
         options: {
-          open: 'http://qqswitcher.com:9000/',
+          open: 'http://localhost:9000/',
           middleware: function (connect) {
             return [
               rewriteRulesSnippet,
@@ -475,7 +454,6 @@ module.exports = function (grunt) {
       'autoprefixer',
       'tmod',
       'configureRewriteRules',
-      'localhosts:set',
       'connect:livereload',
       'watch'
     ]);
@@ -504,7 +482,6 @@ module.exports = function (grunt) {
     'tmod',
     'ngAnnotate',
     'copy:dist',
-    'localhosts:remove',
     'cdnify',
     'cssmin',
     'uglify',

@@ -1,2 +1,2 @@
-/*TMODJS:{"version":53,"md5":"f3d3dfc48c4f741d7c92c17b8799c3e7"}*/
+/*TMODJS:{"version":2,"md5":"db74e3f6586c9d7634bb9f1560119c0e"}*/
 template('list','<ul id="contentlist"> </ul>');

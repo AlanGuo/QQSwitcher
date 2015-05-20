@@ -1,2 +1,2 @@
-/*TMODJS:{"version":8,"md5":"41b52d93ff0cc8e40ed49392304612ee"}*/
+/*TMODJS:{"version":2,"md5":"568d366a311b5eefa050e1347f2ac161"}*/
 template('edit','<p class="precautions"><b>格式：</b>uin,密码，描述(可选)，多个号码输入多行即可。 <br><b>示例：</b>12345678,qcloudv5,白名单外号码 </p> <textarea class="editarea"></textarea>');

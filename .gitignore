@@ -4,3 +4,5 @@
 dist
 bower_components
 node_modules
+
+app/view/compiled/.cache/*
